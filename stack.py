@@ -42,6 +42,6 @@ def check_paren(string):
         
     
 
-print(check_paren("({}{}[]}"))
+#print(check_paren("({}{}[]}"))
 
     
