@@ -1,3 +1,8 @@
+# Write a function that takes a list as an argument and returns a list where corresponding element in the output list comprises of the product
+# all the elements in the input list except the current element.
+
+# Eg: func([1,2,3]) = [2*3,1*3,1*2]
+
 # Using division
 
 def prod_list(lst):
@@ -29,4 +34,4 @@ def prod_wo_division(lst):
         output.append(ans)
     return output
 
-print(prod_wo_division([1, 2, 3, 4, 5]))
+#print(prod_wo_division([1, 2, 3, 4, 5]))
