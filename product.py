@@ -28,6 +28,8 @@ def prod_wo_division(lst):
     for i in range(len(lst)):
         left = lst[:i]
         right = lst[i+1:]
+        #print('left is: ',left)
+        #print("right is: ",right)
         prod1 = prod(left)
         prod2 = prod(right)
         ans = prod1 * prod2
