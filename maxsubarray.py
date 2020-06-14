@@ -18,8 +18,8 @@ def max_subarray(lst):
         
         current_sum = max(lst[i],lst[i] + current_sum)
         max_sum = max(current_sum,max_sum)
-        #print(current_sum,max_sum)
+        print(current_sum,max_sum)
     return max_sum
 
-#lst = [-2,2,5,-11,6]
-#print(max_subarray(lst))
+lst = [-2,2,5,-11,6]
+print(max_subarray(lst))
